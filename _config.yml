@@ -98,6 +98,6 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
+  type: git
   repository: git@github.com:wangck233/wangck233.github.io.git
   branch: master
