@@ -5,15 +5,15 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: / || fa fa-home
-  Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
-  List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+  首页: / || fa fa-home
+  时间轴: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  分类: /categories/ || fa fa-folder-open
+  友情链接: /link/ || fa fa-link
+  关于: /about/ || fa fa-heart
+  清单||fa fa-list:
+    - 音乐 || /music/ || fa fa-music
+    - 电影 || /movies/ || fa fa-film
 
 # Favicon
 # ---------------
@@ -108,7 +108,7 @@ mermaid:
 # ---------------
 avatar:
   img: /img/avatar.png
-  effect: false # 頭像會一直轉圈
+  effect: true # 頭像會一直轉圈
 
 # the banner image of index
 index_img:
@@ -154,15 +154,15 @@ lodding_bg:
 
 # A simple 404 page
 error_404:
-  enable: false
-  subtitle: "Page Not Found"
+  enable: true
+  subtitle: "页面没有找到"
   background:
 
 post_meta:
   page:
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
     categories: true # true or false 文章頁是否顯示分類
@@ -527,7 +527,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 感谢访问本站，若喜欢请收藏 ^_^
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -541,7 +541,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 4/26/2020 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
